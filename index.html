@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta name="description" content="tarjeta invitacion"/>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style2.css">
+
+<title>Smich| juego online de calabera</title>
+</head>
+<body>
+<div class="game-container">
+<canvas width="" height="" id="game"></canvas>
+<p class="countdown">""</p>
+   <div class="btns">
+
+   <button id="up">Arriba</button>
+   <button id="left">Izquierda</button>
+   <button id="right">Derecha</button>
+   <button id="down">Abajo</button>
+
+
+ </div>
+<!--<button class="reiniciar_record inactive">reiniciar Record</button>-->
+
+<div class="messages">
+ <!--todo-->
+
+<p>Vidas:<span id="lives"></span></p>
+<p>Tiempo:⏰<span id="time"></span></p>
+<p>Record:🏁<span id="records"></span></p>
+
+<button class="sound"id="btnOn">Sonido on</button>
+ <button class="sound"id="btnOff">Sonido off</button>
+ </div>
+
+<div>
+<section class="text-container inactive">
+
+
+<h1>TERMINO EL JUEGO</h1>
+<p class="rec">Record:🏁<span id="record"></span></p>
+<p class="rec"id='result'>''</p>
+<p class="tim">TU TIEMPO FUE ⏰<span id="times">""</span></p>
+
+<button class="rein" id="restart">Volver a Jugar</button>
+</section>
+
+
+</div>
+
+<script src="map.js">
+</script>
+
+<script src="game.js">
+</script>
+
+</body>
+</html>
