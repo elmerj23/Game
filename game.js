@@ -20,19 +20,11 @@ const countdownText = document.querySelector('.countdown')
 const winn=document.querySelector('.text-container')
 const spanRecords=document.querySelector('#records');
 const spanTimeShow=document.querySelector('#times');
-const soundOn=document.querySelector('#btnOn');
-const soundOff=document.querySelector('#btnOff');
+
 
 
 //const bRecord=document.querySelector('#reiniciar_record');
-let sound=new Audio('/home/insumos/Escritorio/web/js juego/WhatsApp Audio 2023-03-02 at 12.56.27.mpga');
 
-soundOn.addEventListener('click',()=>{sound.play();});
-soundOff.addEventListener('click',()=>{sound.pause();});
-function sounds(){
-
-return sound;
-}
 
 function showwinn(){
 winn.classList.toggle('inactive')
