@@ -160,26 +160,3 @@ div.messages{
  #up, #down { margin-left: 100%; margin-right: 100%; }
 }
 
-/*#up{
-height: 85px;
-font-size: 20px;
-justify-content:center;
-}
-#down{height: 85px;
-font-size: 21px;}
-
- #right{height: 85px;
-font-size: 20px;}
-
- #left{height: 85px;
-font-size: 17px;
-margin-left: 0;
-margin-right: 131px;
-}}
-
-
-
-@media(min-width:440px){
-button{margin-top:10px;}
-#up,#down{margin-left:100%;margin-right:100%}
-}
