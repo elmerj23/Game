@@ -131,16 +131,16 @@ movePlayer();
 }
 
 function movePlayer(){
-const giftCollisionX=playerPosition.x.toFixed(2)==giftPosition.x.toFixed(2);
-const giftCollisionY=playerPosition.y.toFixed(2)==giftPosition.y.toFixed(2);
+const giftCollisionX=playerPosition.x.toFixed(1)==giftPosition.x.toFixed(1);
+const giftCollisionY=playerPosition.y.toFixed(1)==giftPosition.y.toFixed(1);
 const giftCollision=giftCollisionX&&giftCollisionY;
 if(giftCollision){console.log('Subiste de nivel!!!');
 levelWin();
 
 }
 const enemyCollision=enemyPositions.find(enemy=>{
-const enemyCollisionX=enemy.x.toFixed(2)==playerPosition.x.toFixed(2);
-const enemyCollisionY=enemy.y.toFixed(2)==playerPosition.y.toFixed(2);
+const enemyCollisionX=enemy.x.toFixed(1)==playerPosition.x.toFixed(1);
+const enemyCollisionY=enemy.y.toFixed(1)==playerPosition.y.toFixed(1);
 return enemyCollisionX && enemyCollisionY;
 });
 if(enemyCollision){console.log('chocaste con un enemigo:(');
