@@ -61,9 +61,9 @@ function setCanvasSize(){
 
 //hacer que mida 80% pantalla siempre
 if(window.innerHeight > window.innerWidth){
-canvasSize=window.innerWidth*0.75;}
+canvasSize=window.innerWidth*0.80;}
 else {
-canvasSize=window.innerHeight*0.75;
+canvasSize=window.innerHeight*0.80;
 
 }
 
